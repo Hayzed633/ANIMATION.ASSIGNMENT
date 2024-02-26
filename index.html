@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .house {
+            width: 100%;
+            background-image: url(img/HAYZED01.jpg);
+            background-size: 100%,100%;
+            background-repeat: no-repeat;
+            background-position: fixed;
+            height: 260px;
+           
+        }
+        .whiteline {
+            width: 100%;
+            height: 50px;
+            transform: translateY(-50px);
+        }
+        .greenline {
+            width: 100%;
+            height: 10px;
+            background-color: #58f758;
+        }
+        .road1 img{
+            width: 100%;
+            height: 150px;
+        }
+        .blackline {
+            width: 100%;
+            height: 50px;
+            transform: translateY(-5px);
+         
+            background-color: #313030;
+        }
+        .road2 img {
+            width: 100%;
+            height: 100px;
+            transform: translateY(-5px);
+        }
+        .whiteaeroplane img {
+            transform: translate(900px,-635px);
+            animation: whiteaeroplane 3s linear infinite reverse;
+        }
+
+            @keyframes whiteaeroplane {
+                0% {
+                    transform: translate(-200px, -635px);
+                }
+                100% {
+                    transform: translate(1000px, -635px);
+                }
+            }
+
+        
+        .blueaeroplane img {
+            transform: translate(1000px,-700px);
+            display: inline-block;
+            animation: blueaeroplane 5s linear infinite reverse;
+        }
+            @keyframes blueaeroplane {
+                0% {
+                    transform: translate(-200px, -700px);
+                }
+                100% {
+                    transform: translate(1500px, -700px);
+                }
+            }
+        .bird img {
+            transform: translate(210px,-840px);
+            display: inline-block;
+        }
+        .whitetopgirl img {
+            transform: translate(1000px,-1000px);
+            display: inline-block;
+            animation: whitetopgirl 5s linear infinite forwards;
+        } 
+            @keyframes whitetopgirl {
+                0% {
+                    transform: translate(-200px, -1000px);
+                }
+                100% {
+                    transform: translate(1300px, -1000px);
+                }
+            }        
+
+        .yellowtopguy img {
+            transform: translate(400px,-1140px);
+            display: inline-block;
+            animation: yellowtopguy 5s linear infinite reverse;
+        }
+        @keyframes yellowtopguy {
+                0% {
+                    transform: translate(-200px, -1140px);
+                }
+                100% {
+                    transform: translate(1300px, -1140px);
+                }
+            }
+
+        .yellowcar {
+            transform: translate(1000px,-1200px);
+            animation: yellowcar 3s linear infinite reverse;
+        }
+        @keyframes yellowcar {
+                0% {
+                    transform: translate(-200px, -1200px);
+                }
+                100% {
+                    transform: translate(1300px, -1200px);
+                }
+            }
+
+        .motorcycle img {
+            transform: translate(500px,-1450px);
+            animation: motorcycle 4s linear infinite reverse;
+        }
+        @keyframes motorcycle {
+                0% {
+                    transform: translate(-200px, -1450px);
+                }
+                100% {
+                    transform: translate(1300px, -1450px);
+                }
+            }
+
+
+        .bluelorry img {
+            transform: translate(1000px,-1560px);
+            animation: bluelorry 2s linear infinite reverse;
+        }
+        @keyframes bluelorry {
+                0% {
+                    transform: translate(-200px, -1560px);
+                }
+                100% {
+                    transform: translate(1300px, -1560px);
+                }
+            }
+
+        .blackcar img {
+            transform: translate(100px,-1530px);
+            animation: blackcar 2s linear infinite forwards;
+        }
+        @keyframes blackcar {
+                0% {
+                    transform: translate(-200px, -1530px);
+                }
+                100% {
+                    transform: translate(1000px, -1530px);
+                }
+            }
+
+        .orangetaxi img {
+            transform: translate(100px,-1600px);
+            animation: orangetaxi 3s linear infinite forwards;
+        }
+        @keyframes orangetaxi {
+                0% {
+                    transform: translate(-200px, -1600px);
+                }
+                100% {
+                    transform: translate(1300px, -1600px);
+                }
+            }
+
+        .yellowlorry img {
+            transform: translate(300px,-1800px);
+            animation: yellowlorry 2s linear infinite forwards;
+        }
+        @keyframes yellowlorry {
+                0% {
+                    transform: translate(-200px, -1800px);
+                }
+                100% {
+                    transform: translate(1300px, -1800px);
+                }
+            }
+
+        .redbicycle img {
+            transform: translate(300px,-2000px);
+            animation: redbicycle 4s linear infinite forwards;
+        }
+        @keyframes redbicycle {
+                0% {
+                    transform: translate(-200px, -2000px);
+                }
+                100% {
+                    transform: translate(1300px, -2000px);
+                }
+            }
+        .streetlight1 img {
+            transform: translate(50px,-2220px);
+        }
+        .streetlight2 img {
+            transform: translate(300px,-2350px);
+            display: inline-block;
+        }
+        .streetlight3 img {
+            transform: translate(850px,-2470px);
+        }
+        .streetlight4 img {
+            transform: translate(1060px,-2580px);
+        }
+        .oneway1 img{
+            transform: translate(190px,-2750px);
+            display: inline-block;
+
+        }
+        .oneway2 img{
+            transform: translate(900px,-2920px);
+            display: inline-block;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="house"><img src="img/HAYZED02.png" alt="" width="1280"></div>
+    <div class="whiteline"></div>
+    <div class="greenline"></div>
+    <div class="road1"><img src="img/HAYZED05.jfif" alt=""></div>
+    <div class="blackline"></div>
+    <div class="road2"><img src="img/HAYZED05.jfif" alt=""></div>
+    <div class="whiteaeroplane"><img src="img/HAYZED03.png" alt=""></div>
+    <div class="blueaeroplane"><img src="img/HAYZED04.png" alt="" width="200"></div>
+    <div class="bird"><img class="bird" src="img/HAYZED17.png" alt="" width="200"></div>
+    <div class="whitetopgirl"><img src="img/HAYZED09.png" alt="" width="140"></div>
+    <div class="yellowtopguy"><img src="img/HAYZED10.png" alt="" width="140"></div>
+    <div class="yellowcar"><img src="img/HAYZED08.png" alt="" width="200"></div>
+    <div class="motorcycle"><img src="img/HAYZED06.png" alt="" width="200"></div>
+    <div class="bluelorry"><img src="img/HAYZED07.png" alt="" width="200"></div>
+    <div class="blackcar"><img src="img/HAYZED14.png" alt="" width="200"></div>
+    <div class="orangetaxi"><img src="img/HAYZED15.png" alt="" width="200"></div>
+    <div class="yellowlorry"><img src="img/HAYZED16.png" alt="" width="200"></div>
+    <div class="redbicycle"><img src="img/HAYZED13.png" alt="" width="140"></div>
+    <div class="streetlight1"><img src="img/HAYZED12.png" alt="" width="80"></div>
+    <div class="streetlight2"><img src="img/HAYZED12.png" alt="" width="80"></div>
+    <div class="streetlight3"><img src="img/HAYZED12.png" alt="" width="80"></div>
+    <div class="streetlight4"><img src="img/HAYZED12.png" alt="" width="80"></div>
+    <div class="oneway1"><img src="img/HAYZED11.png" alt="" width="180"></div>
+    <div class="oneway2"><img src="img/HAYZED11.png" alt="" width="180"></div>
+   
+</body>
+</html>
